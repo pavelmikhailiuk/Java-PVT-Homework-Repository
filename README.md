@@ -3,9 +3,9 @@ Repository for homeworks from Java PVT.
 
 ## Project s
 
-You must add new project by next path:
+You must add new project
 ```
-<THEME_NUMBER>.<THEME_NAME>/<AUTHOR>/<YOU_PROJECT>
+<THEME_NUMBER>.<THEME_NAME>/<
 ```
 
 ``<AUTHOR>`` must be in format: first character of you name and surname. For ``Ivan Ivanov`` author will be ``IIVANOV``.
