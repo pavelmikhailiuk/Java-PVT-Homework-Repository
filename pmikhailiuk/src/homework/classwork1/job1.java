@@ -1,4 +1,4 @@
-package homework;
+package homework.classwork1;
 
 /**
  * Created by Natashka on 10.02.2015.

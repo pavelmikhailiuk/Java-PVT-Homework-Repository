@@ -1,4 +1,4 @@
-package homework;
+package homework.test3;
 
 /**
  * Created by Natashka on 05.02.2015.

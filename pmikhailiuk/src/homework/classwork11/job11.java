@@ -1,3 +1,5 @@
+package homework.classwork11;
+
 /**
  * Created by Natashka on 09.02.2015.
  */
