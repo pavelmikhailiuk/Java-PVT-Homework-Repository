@@ -9,12 +9,12 @@ public class Test7 {
         int digit = 0;
         int i = 1;
         int k = 0;
-        int[] a = new int[10];
+        int[] array = new int[10];
 
         while ((num > 0) && (i < 11)) {
             digit = num % 10;
-            a[digit]++;
-            if (a[digit] > 1) {
+            array[digit]++;
+            if (array[digit] > 1) {
                 k = 1;
             }
             num = (num - digit) / 10;
