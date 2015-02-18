@@ -16,7 +16,12 @@ public class LastLetterWord {
         for (int i = 1; i < str.length(); i++) {
             if (str.charAt(i) == ' ') {
                 if (str.charAt(i - 1) != ' ') {
-                    System.out.print(str.charAt(i - 1));
+                    if ((str.charAt(i - 1) != '.') && (str.charAt(i - 1) != ',')
+                            && (str.charAt(i - 1) != '!') && (str.charAt(i - 1) != '?')) {
+                        System.out.print(str.charAt(i - 1));
+                    } else {
+                        System.out.print(str.charAt(i - 2));
+                    }
                 }
             }
         }

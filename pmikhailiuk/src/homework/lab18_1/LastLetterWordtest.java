@@ -6,7 +6,7 @@ package homework.lab18_1;
  */
 public class LastLetterWordtest {
     public static void main(String[] args) {
-        String str = "зря буду обруч кучу угля слов завтра";
+        String str = "зря,    буду обруч. кучу!   угля   слов завтра?";
         LastLetterWord llw = new LastLetterWord();
         llw.setStr(str);
         llw.lastLetter();
